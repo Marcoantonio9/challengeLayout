@@ -3,7 +3,8 @@
     height: 100vh;
     display: flex;
     justify-content: space-between;
-    background-color: #73438f;
+    background-image: linear-gradient(180deg, #73438f, #321b5c);
+    /* background-color: #73438f; */
 }
 
 #area-img{
@@ -35,4 +36,127 @@
     font-family: 'Nunito', sans-serif;
     color: #ffffff;
     font-size: 54px;
+}
+
+/*Sobre*/
+#sobre{
+    width: 100%;
+    height: 100%;
+}
+#sobre-textos{
+    width: 50%;
+    height: 100%;
+    padding: 0px 50px;
+    font-family: 'Nunito', sans-serif;
+}
+
+#sobre-textos h2{
+    padding: 30px 0px;
+    font-size: 29px;
+    color: #fd951a;
+}
+
+/*Funcionalidades*/
+#funcionalidades{
+    margin-top: -140px;
+    width: 100%;
+    height: 100vh;
+
+    background-image: url(../imagens/background.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 25%;
+    background-size: cover;
+
+    display: flex;
+}
+
+#itens-func{
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#itens-func h1{
+    color: #ffffff;
+    padding-bottom: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 29px;
+}
+
+#img-func{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#img-func img{
+    width: 100%;
+    height: 100%;
+}
+.check-simbolo{
+    color: #fd951a;
+}
+
+/*form*/
+#formulario{
+    width: 100%;
+    height: 100%;
+    background-color: #fd951a;
+    font-family: 'Nunito', sans-serif;
+}
+
+#area-form{
+    padding: 70px;
+}
+
+#area-form h1{
+    color: #ffffff;
+    font-size: 32px;
+}
+
+#form-group{
+    display: flex;
+}
+
+#form-group input{
+    width: 300px;
+    height: 40px;
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    margin-right: 20px;
+    font-size: 19px;
+}
+
+#form-group button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    background-color: #5b2482;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#form-group button:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #5b2482;
+    border: 1px solid #5b2482;
+}
+
+footer{
+    background-color: #321b5c;
+    color: #ffffff;
+    width: 100%;
+    height: 90px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
 }

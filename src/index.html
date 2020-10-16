@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="/styles/header.css">
     <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/responsive.css">
 
     <!--Fontes-->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap" rel="stylesheet"> 
@@ -17,9 +18,12 @@
         <nav>
             <div id="logo">
                 <img src="imagens/logo.svg" alt="">
+                <span>
+                    <i class="fas fa-bars icon-menu"></i>
+                </span>
             </div>
             
-                <ul>
+                <ul class="nav-itens">
                     <li>
                         <a href="#">Funcionalidades</a>
                     </li>
@@ -47,6 +51,49 @@
             <h1>Inteligência Artificial</h1>
         </div>
     </main>
+
+    <section id="sobre">
+        <div id="sobre-textos">
+            <h2>Neovision</h2>
+            <p>
+                O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro, este texto não só sobreviveu.
+            </p>
+            <br>
+            <p>
+                O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro, este texto não só sobreviveu.
+            </p>
+        </div>
+    </section>
+
+    <section id="funcionalidades">
+        <div id="itens-func">
+            <h1><i class="fas fa-check-circle check-simbolo"></i> Funcionalidade 1</h1>
+            <h1><i class="fas fa-check-circle check-simbolo"></i> Funcionalidade 2</h1>
+            <h1><i class="fas fa-check-circle check-simbolo"></i> Funcionalidade 3</h1>
+        </div>
+
+        <div id="img-func">
+            <img src="imagens/celular.svg" alt="">
+        </div>
+    </section>
+
+    <section id="formulario">
+        <div id="area-form">
+            <h1>Quer conhecer mais sobre o Neovision?</h1>
+            <form action="">
+                <div id="form-group">
+                    <input type="text" placeholder="Nome">
+                    <input type="text" placeholder="E-mail">
+                    <button>Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
     
+    <footer>
+        <span>&copy;2019 - Neovision. Todos os direitos reservados</span>
+    </footer>
+
+    <script src="/scripts/main.js"></script>
 </body>
 </html>
