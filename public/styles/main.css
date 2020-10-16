@@ -1,0 +1,38 @@
+#page-home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #73438f;
+}
+
+#area-img{
+    width: 100%;
+    height: 100%;
+}
+
+#area-img img{
+    width: 100%;
+    height: 100%;
+}
+
+#area-texto{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#area-texto p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 32px;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+#area-texto h1{
+    font-family: 'Nunito', sans-serif;
+    color: #ffffff;
+    font-size: 54px;
+}
