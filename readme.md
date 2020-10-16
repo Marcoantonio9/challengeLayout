@@ -10,3 +10,12 @@
     <li>Node JS</li>
     <li>Express</li>
 </ul>
+
+<h1>Instalação da aplicação:</h1>
+<ul>
+    <p>Após realizar o dowload do arquivo zip</p>
+    <li>npm install</li>
+    <li>npm install nodemon</li>
+    <li>npm start</li>
+    <li>Abrir no navegador: localhost:3000</li>
+</ul>
