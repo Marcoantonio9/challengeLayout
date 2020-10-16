@@ -13,7 +13,7 @@
 
 <h1>Instalação da aplicação:</h1>
 <ul>
-    <p><strong>Após realizar o dowload do arquivo zip<strong></p>
+    <strong><p>Após realizar o dowload do arquivo zip></p></strong>
     <li>npm install</li>
     <li>npm install nodemon</li>
     <li>npm start</li>
