@@ -1,12 +1,12 @@
-@media(max-width: 880px){
-    .icon-menu{
+@media(max-width: 880px) {
+    .icon-menu {
         visibility: visible;
     }
-    nav{
+    nav {
         flex-direction: column;
         height: 100%;
     }
-    nav ul{
+    nav ul {
         flex-direction: column;
         width: 100%;
         height: 100vh;
@@ -14,62 +14,62 @@
         position: relative;
         z-index: 1;
     }
-    .exibir-menu{
+    .exibir-menu {
         display: flex;
     }
-    nav ul li{
+    nav ul li {
         margin-right: 0px;
         padding: 20px;
     }
-    nav ul li a{
+    nav ul li a {
         cursor: pointer;
     }
-    #logo{
+    #logo {
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
-    #logo img{
+    #logo img {
         margin-left: 0px;
     }
-    #icon-menu{
+    #icon-menu {
         display: block;
     }
     /*Page home*/
-    #page-home{
+    #page-home {
         flex-direction: column;
         text-align: center;
     }
-    #sobre-textos{
+    #sobre-textos {
         width: 100%;
     }
-    #sobre-textos h2{
+    #sobre-textos h2 {
         text-align: center;
     }
-    #funcionalidades{
+    #funcionalidades {
         margin-top: 0px;
         height: 100%;
     }
-    #itens-func{
+    #itens-func {
         padding: 0px 20px;
         margin-top: 145px;
     }
-    #itens-func h1{
+    #itens-func h1 {
         font-size: 17px;
     }
-    #area-form h1{
+    #area-form h1 {
         font-size: 25px;
         margin-bottom: 10px;
     }
-    #form-group{
+    #form-group {
         flex-direction: column;
         align-items: center;
     }
-    #form-group input{
+    #form-group input {
         margin-bottom: 20px;
     }
-    #form-group button{
+    #form-group button {
         margin: 0 auto;
     }
 }
