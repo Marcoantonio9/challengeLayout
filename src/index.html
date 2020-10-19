@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neovision</title>
 
+    <!--CSS-->
     <link rel="stylesheet" href="/styles/header.css">
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="/styles/responsive.css">
 
     <!--Fontes-->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <!--Icones-->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
+
 <body>
     <header>
         <nav>
@@ -22,22 +26,22 @@
                     <i class="fas fa-bars icon-menu"></i>
                 </span>
             </div>
-            
-                <ul class="nav-itens">
-                    <li>
-                        <a href="#">Funcionalidades</a>
-                    </li>
 
-                    <li>
-                        <a href="#">Contato</a>
-                    </li>
+            <ul class="nav-itens">
+                <li>
+                    <a href="#">Funcionalidades</a>
+                </li>
 
-                    <li>
-                        <a href="#">
-                            <i class="fab fa-facebook-square facebook"></i>
-                        </a>
-                    </li>
-                </ul>
+                <li>
+                    <a href="#">Contato</a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fab fa-facebook-square facebook"></i>
+                    </a>
+                </li>
+            </ul>
         </nav>
     </header>
 
@@ -56,11 +60,15 @@
         <div id="sobre-textos">
             <h2>Neovision</h2>
             <p>
-                O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro, este texto não só sobreviveu.
+                O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o
+                texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um
+                texto para criar um espécime de livro, este texto não só sobreviveu.
             </p>
             <br>
             <p>
-                O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro, este texto não só sobreviveu.
+                O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o
+                texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um
+                texto para criar um espécime de livro, este texto não só sobreviveu.
             </p>
         </div>
     </section>
@@ -80,20 +88,19 @@
     <section id="formulario">
         <div id="area-form">
             <h1>Quer conhecer mais sobre o Neovision?</h1>
-            <form action="">
-                <div id="form-group">
-                    <input type="text" placeholder="Nome">
-                    <input type="text" placeholder="E-mail">
-                    <button>Enviar</button>
-                </div>
+            <form id="form-group">
+                    <input type="text" placeholder="Nome" id="campoNome" required="required">
+                    <input type="email" placeholder="E-mail" id="campoEmail" required="required">
+                    <button id="btnEnviar" type="submit">Enviar</button>
             </form>
         </div>
     </section>
-    
+
     <footer>
         <span>&copy;2019 - Neovision. Todos os direitos reservados</span>
     </footer>
 
     <script src="/scripts/main.js"></script>
 </body>
+
 </html>
